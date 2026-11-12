@@ -1,0 +1,134 @@
+[
+    {
+        "filters1": 16,
+        "filters2": 32,
+        "kernel_size": 3,
+        "pooling1": "max",
+        "pooling2": "max",
+        "dropout1": 0.2,
+        "dropout2": 0.2,
+        "dense_units": 64,
+        "learning_rate": 0.001
+    },
+    {
+        "filters1": 16,
+        "filters2": 32,
+        "kernel_size": 3,
+        "pooling1": "max",
+        "pooling2": "average",
+        "dropout1": 0.2,
+        "dropout2": 0.2,
+        "dense_units": 64,
+        "learning_rate": 0.001
+    },
+    {
+        "filters1": 16,
+        "filters2": 32,
+        "kernel_size": 3,
+        "pooling1": "average",
+        "pooling2": "max",
+        "dropout1": 0.3,
+        "dropout2": 0.2,
+        "dense_units": 64,
+        "learning_rate": 0.001
+    },
+    {
+        "filters1": 16,
+        "filters2": 32,
+        "kernel_size": 3,
+        "pooling1": "average",
+        "pooling2": "average",
+        "dropout1": 0.3,
+        "dropout2": 0.2,
+        "dense_units": 64,
+        "learning_rate": 0.001
+    },
+    {
+        "filters1": 32,
+        "filters2": 64,
+        "kernel_size": 3,
+        "pooling1": "max",
+        "pooling2": "max",
+        "dropout1": 0.3,
+        "dropout2": 0.2,
+        "dense_units": 128,
+        "learning_rate": 0.001
+    },
+    {
+        "filters1": 32,
+        "filters2": 64,
+        "kernel_size": 3,
+        "pooling1": "max",
+        "pooling2": "average",
+        "dropout1": 0.3,
+        "dropout2": 0.2,
+        "dense_units": 128,
+        "learning_rate": 0.001
+    },
+    {
+        "filters1": 32,
+        "filters2": 64,
+        "kernel_size": 3,
+        "pooling1": "average",
+        "pooling2": "max",
+        "dropout1": 0.3,
+        "dropout2": 0.3,
+        "dense_units": 128,
+        "learning_rate": 0.0005
+    },
+    {
+        "filters1": 32,
+        "filters2": 64,
+        "kernel_size": 3,
+        "pooling1": "average",
+        "pooling2": "average",
+        "dropout1": 0.3,
+        "dropout2": 0.3,
+        "dense_units": 128,
+        "learning_rate": 0.0005
+    },
+    {
+        "filters1": 16,
+        "filters2": 64,
+        "kernel_size": 5,
+        "pooling1": "max",
+        "pooling2": "average",
+        "dropout1": 0.4,
+        "dropout2": 0.2,
+        "dense_units": 128,
+        "learning_rate": 0.0005
+    },
+    {
+        "filters1": 32,
+        "filters2": 32,
+        "kernel_size": 5,
+        "pooling1": "average",
+        "pooling2": "max",
+        "dropout1": 0.2,
+        "dropout2": 0.3,
+        "dense_units": 64,
+        "learning_rate": 0.001
+    },
+    {
+        "filters1": 16,
+        "filters2": 64,
+        "kernel_size": 3,
+        "pooling1": "max",
+        "pooling2": "max",
+        "dropout1": 0.3,
+        "dropout2": 0.4,
+        "dense_units": 128,
+        "learning_rate": 0.0005
+    },
+    {
+        "filters1": 32,
+        "filters2": 64,
+        "kernel_size": 5,
+        "pooling1": "average",
+        "pooling2": "average",
+        "dropout1": 0.4,
+        "dropout2": 0.3,
+        "dense_units": 128,
+        "learning_rate": 0.001
+    }
+]

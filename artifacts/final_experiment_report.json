@@ -1,0 +1,62 @@
+{
+    "project": "AutoNAS-RL",
+    "dataset": "Fashion-MNIST",
+    "search_method": "Tabular Q-Learning",
+    "episodes": 20,
+    "total_candidates": 12,
+    "best_candidate_index_zero_based": 1,
+    "best_candidate_number": 2,
+    "best_config": {
+        "filters1": 16,
+        "filters2": 32,
+        "kernel_size": 3,
+        "pooling1": "max",
+        "pooling2": "average",
+        "dropout1": 0.2,
+        "dropout2": 0.2,
+        "dense_units": 64,
+        "learning_rate": 0.001
+    },
+    "best_reward": 0.8564186081307564,
+    "validation_results": {
+        "fixed_cnn": {
+            "accuracy": 0.9337,
+            "precision": 0.9334,
+            "recall": 0.9337,
+            "f1": 0.9333,
+            "training_time_seconds": 58.69,
+            "parameters": 422026,
+            "mean_latency_ms": 21.51,
+            "p95_latency_ms": 38.044
+        },
+        "rl_searched_cnn": {
+            "accuracy": 0.925,
+            "precision": 0.9253,
+            "recall": 0.925,
+            "f1": 0.9245,
+            "training_time_seconds": 45.17,
+            "parameters": 106058,
+            "mean_latency_ms": 14.024,
+            "p95_latency_ms": 21.305
+        }
+    },
+    "test_results": {
+        "fixed_cnn": {
+            "accuracy": 0.9257,
+            "precision": 0.9252756525270487,
+            "recall": 0.9257,
+            "f1": 0.9251380900325277
+        },
+        "rl_searched_cnn": {
+            "accuracy": 0.9142,
+            "precision": 0.9141362681399741,
+            "recall": 0.9141999999999999,
+            "f1": 0.9132507308818006
+        }
+    },
+    "search_results_file": "candidate_results.csv",
+    "models": {
+        "fixed": "fixed_cnn.keras",
+        "rl_searched": "rl_searched_cnn.keras"
+    }
+}
