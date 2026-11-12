@@ -239,6 +239,23 @@ The Streamlit application provides dedicated interfaces for:
 
 *Dashboard screenshots and a public demo link will be added after deployment.*
 
+
+### Dashboard Preview
+
+#### Main Dashboard
+<img width="1736" height="953" alt="Screenshot 2026-11-12 120347" src="https://github.com/user-attachments/assets/a7f209c0-dc84-46a3-a5d5-ff60ecf95507" />
+
+
+#### Architecture Search
+<img width="1076" height="936" alt="Screenshot 2026-11-12 120417" src="https://github.com/user-attachments/assets/85aca081-99bd-4d53-878e-f2bde441a93e" />
+
+<img width="817" height="958" alt="Screenshot 2026-11-12 120430" src="https://github.com/user-attachments/assets/0b6329c9-adab-495e-b3ac-12387f2688a7" />
+
+
+#### Model Benchmarking
+<img width="820" height="942" alt="Screenshot 2026-11-12 120451" src="https://github.com/user-attachments/assets/ddefce26-8a51-4c09-a150-967762d94a9c" />
+
+
 ## Testing
 
 Run the available project validation scripts:
